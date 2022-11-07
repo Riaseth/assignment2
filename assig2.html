@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="content-type" content="text/html;charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="resume"/>
-    <meta name="description" content="making a resume in html"/>
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+    <meta charset="utf-8">
     <title>Resume</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="resume">
+    <meta name="description" content="making a resume in html">
+    <meta name="author" content="Ria Seth">
+ 
+    
+    
     <style>
         #personal{
             display: flex;
@@ -45,7 +47,7 @@ h1, h2, h3{
 }
    nav{
     display: flex;
-    flex: row;
+    flex-direction: row;
     
    }
    #name{
@@ -88,12 +90,13 @@ h1, h2, h3{
         <hr>
    <article>
         <section id="personal">
-            <div>
+          
                 <img src=".\image\photo.jpeg" alt="image of ria" >
                 <h2>Personal Information</h2>
+                <a href="tel:+1 5879730332" target="_blank">5879730332</a><br>
              <a href="mailto:riaseth13@gmail.com" class="fa fa-envelope" target="_blank">riaseth13@gmail.com</a><br>
                 
-            </div>
+            
         </section>
         <div class="vl"></div>
    
@@ -102,24 +105,27 @@ h1, h2, h3{
        
         <h2>Education</h2>
         <ul>
-            <li><span>Bachelor's of science(Computer Science)</span> <br>
+            <li>Bachelor's of science(Computer Science) <br>
                 Guru Nanak Dev University<br>
                 India<br>
                 08/2018-08/2021</li>
-                <li><span>Digital Media and Marketing</span><br>
+                <li>Digital Media and Marketing<br>
                     University of Calgary<br>
                     Calgary, AB, Canada<br>
                     08/2022-08/2023 (anticipated)</li>
                 </ul>
                 <div class="hl"></div>
-                <h2>Experience</h2>
-                <ul>
-                    <li><span>Tutoring (2018-2021)</span></li>
-                    <p>Provided math and computer tutoring to peers both in and off campus. 
-                    Used communication skills to explain difficult concepts in simple terms. Provided hand on tutoring in various object oriented languages like java, C and C++.</p>
-                    <li><span>Administrative assistant (2021-2022)</span></li>
-                    <p>Did a full time job for 9 months as an administrative assistant at a local automobile firm in hometown in India. Work included handling office tasks, such as filing, generating reports and presentations, setting up for meetings, and reordering supplies. Providing real-time scheduling support by booking appointments and preventing conflicts. Screening phone calls and routing callers to the appropriate party.Greet and assist visitors.</p>
-                </ul>
+                <div>
+
+                    <h2>Experience</h2>
+                    <ul>
+                        <li>Tutoring (2018-2021)
+                        <p>Provided math and computer tutoring to peers both in and off campus. 
+                            Used communication skills to explain difficult concepts in simple terms. Provided hand on tutoring in various object oriented languages like java, C and C++.</p</li>
+                            <li>Administrative assistant (2021-2022)
+                            <p>Did a full time job for 9 months as an administrative assistant at a local automobile firm in hometown in India. Work included handling office tasks, such as filing, generating reports and presentations, setting up for meetings, and reordering supplies. Providing real-time scheduling support by booking appointments and preventing conflicts. Screening phone calls and routing callers to the appropriate party.Greet and assist visitors.</p></li>
+                        </ul>
+                    </div>
                 <div class="hl"></div>
                
 
@@ -134,12 +140,11 @@ h1, h2, h3{
                     </ul>
                 
                 <div class="hl"></div>
-               
-                <h2>Languages</h2>
+               <h2>Languages</h2>
                 <ul>
-                    <li><span>English</span>(Fluent)</li>
-                    <li><span>Hindi </span>(Native)</li>
-                    <li><span>Punjabi</span>(Native)</li>
+                    <li>English (Fluent)</li>
+                    <li>Hindi (Native)</li>
+                    <li>Punjabi (Native)</li>
                 </ul>
                 
                 
